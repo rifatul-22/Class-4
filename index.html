@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+    <table border="1" cellspacing="0" cellpadding="10" width="70%" align="center">
+        <tr>
+            <td align="center" colspan="2">
+                <h1><font color="red">Registration</font></h1>
+                <hr width="18%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quibusdam. Ipsum eligendi iure aut, soluta amet omnis reiciendis consequatur tenetur,
+                 vel odit maxime repudiandae sapiente molestias beatae necessitatibus, impedit numquam.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="FirstName">FirstName:</label>
+                <input type="text" placeholder="Enter Your Name" id="FirstName" required>
+            </td>
+            <td>
+                <label for="LastName">LastName:</label>
+                <input type="text" placeholder="Enter Your Name" id="LastName">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Your Email" required>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="date">Date of Bitth:</label>
+                <input type="date" id="date">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="age">Age</label>
+                <input type="number" id="age">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="">Gender</label><br>
+                <input type="radio" id="others" name="gender">
+                <label for="male">male</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">female</label><br>
+                <input type="radio" id="others" name="gender">
+                <label for="others">others</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="address">Address</label><br>
+                <input type="text" placeholder="Street Address" id="address"><br>
+                <input type="text" placeholder="Street Address Line 2" id="address">
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="homePhone">Home Phone</label>
+                <input type="tel" id="homePhone">
+            </td>
+            <td>
+                <label for="Phone">Phone</label>
+                <input type="tel" id="Phone">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Type here....."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Course</h4>
+                <input type="checkbox" id="wd">
+                <label for="wd">Web Design</label><br>
+                <input type="checkbox" id="pwd">
+                <label for="pwd">Web Deploment</label><br>
+                <input type="checkbox" id="gd">
+                <label for="gd">Graphic Design</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="skill">Skill:</label>
+                <input type="range" id="skill" >
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="color">Choose Your Color:</label>
+                <input type="color" id="color">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="file">Choose Your File</label>
+                <input type="file" id="file">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="New Password"><br><br>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Confirm Password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <select>
+                    <option>Choose Your Country</option>
+                    <optgroup label="Asia">
+                        <option selected>Bangladesh</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                        <option>Nepal</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option>Germany</option>
+                        <option>Turkey</option>
+                        <option>Italy</option>
+                        <option>France</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="check">
+                <label for="check">I accept all terms and conditions</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+               <input type="reset" value="Reset Form">
+               <input type="submit" value="Register">
+               <input type="image" src="img/LeftWhimsicalAcornweevil-max-1mb.gif" width="200px">
+            </td>
+         </tr>
+    </table>
+   </form>
+</body>
+</html>
